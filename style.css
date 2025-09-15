@@ -1,0 +1,154 @@
+/* Global */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f5efe6; /* soft background */
+  color: #333;
+}
+section {
+  padding-top: 4rem;
+}
+
+/* Navbar */
+.navbar {
+  background-color: #9a3f3f !important; /* primary */
+}
+.navbar-brand,
+.navbar-nav .nav-link {
+  color: #fff !important;
+  font-weight: 500;
+}
+.navbar-nav .nav-link:hover {
+  color: #fec756 !important; /* secondary hover */
+}
+
+/* Jumbotron */
+.jumbotron {
+  padding-top: 8rem;
+  background-color: #f5efe6; /* background */
+  color: #9a3f3f; /* primary text */
+}
+.jumbotron h1 {
+  font-weight: bold;
+  color: #9a3f3f;
+}
+.jumbotron p {
+  color: #555;
+}
+.btn-linkedin {
+  background-color: #fec756;
+  border: none;
+  color: #9a3f3f; /* teks hitam biar kontras */
+  font-weight: 600;
+}
+
+.btn-linkedin:hover {
+  background-color: #ffdb93; /* versi lebih soft saat hover */
+  color: #fff;
+}
+
+/* About Section */
+#about {
+  background-color: #ffffff; /* soft background */
+}
+#about h2 {
+  color: #9a3f3f; /* primary */
+}
+#about p span {
+  color: #9a3f3f; /* lighter primary highlight */
+}
+
+/* Projects Section */
+#projects {
+  background-color: #f5efe6;
+}
+#projects h2 {
+  color: #9a3f3f;
+}
+.btn-project {
+  background-color: #fec756; /* secondary */
+  border: none;
+  color: #000;
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+.btn-project:hover {
+  background-color: #ffdb93; /* warna hover */
+  color: #000;
+}
+/* Samakan tinggi gambar project */
+.project-img {
+  height: 200px; /* atur sesuai kebutuhan, misalnya 200px */
+  object-fit: cover; /* agar gambar tetap proporsional */
+}
+/* Pastikan semua card tingginya konsisten */
+.card {
+  display: flex;
+  flex-direction: column;
+}
+.card-body {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+}
+.card-text {
+  color: #555;
+}
+
+/* Sertifikat Section */
+#experiences {
+  background-color: #ffffff;
+}
+#experiences h2 {
+  color: #9a3f3f;
+}
+
+/* Footer */
+footer {
+  background-color: #9a3f3f !important;
+}
+footer p {
+  margin: 0;
+}
+footer a {
+  color: #fec756 !important;
+}
+.scroll-container {
+  overflow-x: auto;
+  overflow-y: hidden;
+  white-space: nowrap;
+  padding-bottom: 1rem;
+}
+
+.scroll-container::-webkit-scrollbar {
+  height: 8px;
+}
+
+.scroll-container::-webkit-scrollbar-thumb {
+  background-color: #fff; /* pakai warna primary */
+  border-radius: 10px;
+}
+
+.scroll-container .card {
+  display: inline-block;
+}
+.footer-custom {
+  background: linear-gradient(90deg, #9a3f3f);
+  color: #fff;
+}
+
+.footer-custom a {
+  color: #fec756; /* secondary (kuning emas) untuk link */
+  text-decoration: none;
+}
+
+.footer-custom a:hover {
+  color: #ffdb93; /* lebih soft saat hover */
+}
+
+.footer-custom i {
+  color: #fec756; /* heart icon pakai warna secondary */
+}
